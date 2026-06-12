@@ -1,4 +1,3 @@
-cat > README.md << 'EOF'
 # 🧾 Multi-Tenant SaaS-Based Expense Management API
 
 A secure, high-performance API for managing expenses across multiple companies with complete data isolation.
