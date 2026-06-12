@@ -2,7 +2,7 @@
 
 A secure, high-performance API for managing expenses across multiple companies with complete data isolation.
 
-## 🚀 Features
+## Features
 
 - **Multi-Tenant Support** - Complete data isolation between companies
 - **Secure API Authentication** - Laravel Sanctum token-based authentication
@@ -11,15 +11,15 @@ A secure, high-performance API for managing expenses across multiple companies w
 - **Background Job Processing** - Laravel Queues for weekly reports
 - **Audit Logging** - Track all changes to expenses
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-- Laravel 11
-- MySQL/PostgreSQL
+- Laravel 13
+- MySQL
 - Laravel Sanctum
 - Redis (Caching & Queue)
 - Spatie Laravel Multitenancy
 
-## 📋 API Endpoints
+## API Endpoints
 
 ### Authentication
 - `POST /api/login` - Login user
@@ -47,7 +47,7 @@ A secure, high-performance API for managing expenses across multiple companies w
 - `DELETE /api/tenants/{id}` - Delete tenant
 - `GET /api/tenants/{id}/statistics` - Get tenant statistics
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 - PHP 8.1+
