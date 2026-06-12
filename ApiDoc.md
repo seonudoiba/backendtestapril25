@@ -608,6 +608,3 @@ curl -X GET "http://localhost:8000/api/expenses?search=test&category=Testing&pag
 | Admin | admin@TechCorp.com | password123 |
 | Manager | manager@TechCorp.com | password123 |
 | Employee | employee@TechCorp.com | password123 |
-
----
-EOF
