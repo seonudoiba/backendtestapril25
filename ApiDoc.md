@@ -610,8 +610,4 @@ curl -X GET "http://localhost:8000/api/expenses?search=test&category=Testing&pag
 | Employee | employee@TechCorp.com | password123 |
 
 ---
-
-**API Version:** 1.0.0  
-**Last Updated:** January 2026  
-**Built With:** Laravel 11
 EOF
